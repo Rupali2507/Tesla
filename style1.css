@@ -44,7 +44,7 @@ nav a{ height: 100%;
          display: flex;
          align-items: center;
          color: rgb(252, 249, 249);
-         font-size: x-large;
+         font-size: large;
 }
  nav a:hover{
     background-color: #121111;
@@ -87,7 +87,7 @@ nav a{ height: 100%;
     font-family: "Martel Sans", sans-serif;
     padding: 0 30px;
   text-align: center;
-  width: 2672px;
+  width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,21 +95,21 @@ nav a{ height: 100%;
     color: white;
     
     position: relative;
-    height: 1000px;
+    height: 90vh;
     z-index: 10;
     gap: 20px;
   }
   .hero > :nth-child(1) {
     font-family: "poppins", sans-serif;
     font-weight: bolder;
-    font-size: 76px;
+    font-size: 60px;
     text-align: center;
     top: -5px;
     position: relative;
   }
   .hero > :nth-child(2) {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     position: relative;
     top: 0px;
@@ -160,10 +160,11 @@ nav a{ height: 100%;
     nav a{
         font-size: x-small;
     }
-    .hero{
-        width: 1000px;
-        height: 700px;
-    } nav li:first-child {
+    /* .hero{
+        
+        height: 50vh;
+    } */
+        nav li:first-child { 
         height: 50px;
         width: 85px;
     }
